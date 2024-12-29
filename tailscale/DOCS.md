@@ -75,7 +75,7 @@ login_server: "https://controlplane.tailscale.com"
 proxy: false
 proxy_and_funnel_port: 443
 snat_subnet_routes: true
-stateful_filtering: true
+stateful_filtering: false
 tags:
   - tag:example
   - tag:homeassistant
@@ -281,9 +281,8 @@ When not set, this option is enabled by default.
 
 To support advanced [Site-to-site networking][tailscale_info_site_to_site] (eg.
 to traverse multiple networks), you can disable this functionality, and follow
-steps 2 and 3 as described on [Site-to-site
-networking][tailscale_info_site_to_site]. But do it only when you really
-understand why you need this.
+steps from step 3 on [Site-to-site networking][tailscale_info_site_to_site]. But
+do it only when you really understand why you need this.
 
 ### Option: `stateful_filtering`
 
@@ -321,10 +320,12 @@ When not set, this option is enabled by default.
 
 If you need to access other clients on your tailnet from your Home Assistant
 instance, disable userspace networking mode, which will create a `tailscale0`
-network interface on your host.
+network interface on your host. To be able to address those clients not only
+with their tailnet IP, but with their tailnet name, you have to configure Home
+Assistant's DNS options also.
 
 If you want to access other clients on your tailnet even from your local subnet,
-follow steps 2 and 3 as described on [Site-to-site
+follow steps from step 3 on [Site-to-site
 networking][tailscale_info_site_to_site].
 
 In case your local subnets collide with subnet routes within your tailnet, your
@@ -332,6 +333,19 @@ local network access has priority, and these addresses won't be routed toward
 your tailnet. This will prevent your Home Assistant instance from losing network
 connection. This also means that using the same subnet on multiple nodes for load
 balancing and failover is impossible with the current add-on behavior.
+
+## Network
+
+### Port: `41641/udp`
+
+UDP port to listen on for WireGuard and peer-to-peer traffic.
+
+Use this option (and router port forwarding) if you experience that Tailscale
+can't establish peer-to-peer connections to some of your devices (usually behind
+CGNAT networks). You can test connections with `tailscale ping
+<hostname-or-ip>`.
+
+When not set, an automatically selected port is used by default.
 
 ## Changelog & Releases
 

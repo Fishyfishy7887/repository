@@ -2,9 +2,12 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v15.0.8 @renovate ([#9](https://github.com/hassio-addons/addon-bazarr/pull/9))
-- ⬆️ Update alpine_3_19/python3-dev to v3.11.9-r0 @renovate ([#11](https://github.com/hassio-addons/addon-bazarr/pull/11))
-- ⬆️ Update alpine_3_19/python3 to v3.11.9-r0 @renovate ([#10](https://github.com/hassio-addons/addon-bazarr/pull/10))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v15.0.9 @renovate ([#12](https://github.com/hassio-addons/addon-bazarr/pull/12))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16 @renovate ([#13](https://github.com/hassio-addons/addon-bazarr/pull/13))
-- ⬆️ Update morpheus65535/bazarr to v1.4.3 @renovate ([#14](https://github.com/hassio-addons/addon-bazarr/pull/14))
+- ⬆️ Update alpine_3_20/python3-dev to v3.12.7-r0 @renovate ([#34](https://github.com/hassio-addons/addon-bazarr/pull/34))
+- ⬆️ Update alpine_3_20/python3 to v3.12.7-r0 @renovate ([#33](https://github.com/hassio-addons/addon-bazarr/pull/33))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.3.3 @renovate ([#35](https://github.com/hassio-addons/addon-bazarr/pull/35))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.3.4 @renovate ([#36](https://github.com/hassio-addons/addon-bazarr/pull/36))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.3.5 @renovate ([#37](https://github.com/hassio-addons/addon-bazarr/pull/37))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.3.6 @renovate ([#38](https://github.com/hassio-addons/addon-bazarr/pull/38))
+- ⬆️ Update alpine_3_20/python3-dev to v3.12.8-r0 @renovate ([#40](https://github.com/hassio-addons/addon-bazarr/pull/40))
+- ⬆️ Update alpine_3_20/python3 to v3.12.8-r0 @renovate ([#39](https://github.com/hassio-addons/addon-bazarr/pull/39))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17 @renovate ([#41](https://github.com/hassio-addons/addon-bazarr/pull/41))

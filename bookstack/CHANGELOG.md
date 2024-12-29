@@ -2,8 +2,8 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update alpine_3_19/nginx to v1.24.0-r16 @renovate ([#307](https://github.com/hassio-addons/addon-bookstack/pull/307))
-- ⬆️ Update alpine_3_19/composer to v2.7.4-r0 @renovate ([#308](https://github.com/hassio-addons/addon-bookstack/pull/308))
-- ⬆️ Update alpine_3_19/composer to v2.7.6-r0 @renovate ([#309](https://github.com/hassio-addons/addon-bookstack/pull/309))
-- ⬆️ Update PHP to v8.2.19-r0 @renovate ([#310](https://github.com/hassio-addons/addon-bookstack/pull/310))
-- ⬆️ Update BookStackApp/BookStack to v24.05 @renovate ([#311](https://github.com/hassio-addons/addon-bookstack/pull/311))
+- ⬆️ Update alpine_3_21/composer to v2.8.4-r0 @renovate ([#355](https://github.com/hassio-addons/addon-bookstack/pull/355))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17.0.1 @renovate ([#356](https://github.com/hassio-addons/addon-bookstack/pull/356))
+- ⬆️ Update PHP to v8.3.15-r0 @renovate ([#358](https://github.com/hassio-addons/addon-bookstack/pull/358))
+- 🔨 Add php-zip @sinclairpaul ([#360](https://github.com/hassio-addons/addon-bookstack/pull/360))
+- ⬆️ Update BookStackApp/BookStack to v24.12 @renovate ([#359](https://github.com/hassio-addons/addon-bookstack/pull/359))
